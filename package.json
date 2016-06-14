@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "device bootstrap",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "device",
+    "bootstrap"
+  ],
+  "author": "sudhir",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "bookshelf": "^0.9.5",
+    "config": "^1.21.0",
+    "express": "^4.13.4",
+    "http-errors": "^1.5.0",
+    "json-web-token": "^2.0.2",
+    "knex": "^0.11.5",
+    "moment": "^2.13.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "pg": "^5.1.0"
+  }
+}
