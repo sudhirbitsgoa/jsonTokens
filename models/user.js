@@ -1,7 +1,7 @@
 var bookShelf = require('./index');
 
 var User = bookShelf.Model.extend({
-		tableName: 'user'
+		tableName: 'user',
 });
 
 module.exports = User;
