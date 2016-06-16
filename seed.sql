@@ -11,5 +11,6 @@ CREATE TABLE "user"
 (
   username text NOT NULL,
   password text  NOT NULL,
+  id  int,
   CONSTRAINT username PRIMARY KEY (username)
 )
