@@ -21,7 +21,7 @@ module.exports.verifypassword = function(req, res) {
             delete(userDetails.password);
             const expires = moment().add(7, 'days').valueOf()
             jwt.encode('jwtTokenSecret', {
-                iss: 123456,
+                iss: userDetails.username,
                 exp: expires
             }, function(err, token) {
                 res.json({
